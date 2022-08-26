@@ -1,5 +1,5 @@
 
-public class CanetaTeste {
+public class TestaCaneta {
 
     public static void main (String[] args){
         Caneta pineApple = new Caneta();
