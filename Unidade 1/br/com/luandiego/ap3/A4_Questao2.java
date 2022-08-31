@@ -39,7 +39,7 @@ public static void main(String[] args) {
             }
 
             System.out.println("\n O número escolhido de 0 até 100 é " + numeroAleatorioEntre_0_a_100 + "e as suas tentativas foram "
-                    + contadorDeTentativas + "vezes distintas");
+                    + contadorDeTentativas + "vezes distintas \n");
 
 
 
