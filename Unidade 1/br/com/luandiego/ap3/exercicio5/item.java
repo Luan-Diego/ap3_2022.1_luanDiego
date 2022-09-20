@@ -20,8 +20,8 @@ public class item {
     @Override
     public String toString() {
         return "Item"                 +
-        "\nProduto = "                + produto           +
-        "\nQuantidade no estoque = "  + qtd        + "\n";
+        "\n Produto = "                + produto           +
+        "\n Quantidade no estoque = "  + qtd        + "\n";
     }
 
 
