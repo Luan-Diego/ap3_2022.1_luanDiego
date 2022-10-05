@@ -3,11 +3,10 @@ package br.com.luandiego.ap3.exercicio5;
 import java.util.List;
 import java.util.ArrayList;
 
+public class Pedido {
 
-public class pedido<Item> {
-    
-    private List <Item> itens = new ArrayList<>();
-    
+    private List<Item> itens = new ArrayList<>();
+
     public void Compra(Item item) {
         itens.add(item);
     }
@@ -25,8 +24,8 @@ public class pedido<Item> {
         return item;
     }
 
-    public void itens(){
-        for (Item item: itens) {
+    public void itens() {
+        for (Item item : itens) {
             System.out.println(item);
         }
     }
