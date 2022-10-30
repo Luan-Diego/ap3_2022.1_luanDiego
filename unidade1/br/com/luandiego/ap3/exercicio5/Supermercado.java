@@ -1,6 +1,5 @@
 package br.com.luandiego.ap3.exercicio5;
 
-
 public class Supermercado {
 
     private String produto;
@@ -16,7 +15,6 @@ public class Supermercado {
         this.item = item;
         this.pedido = pedido;
     }
-
 
     public String getProduto() {
         return produto;
@@ -58,17 +56,14 @@ public class Supermercado {
         this.pedido = pedido;
     }
 
-
     @Override
     public String toString() {
         return "Supermercado" +
-        "\n estoque= "  + estoque       + 
-        "\n item= "     + item          + 
-        "\n pedido= "   + pedido        +  
-        "\n preco= "    + preco         +
-        "\n produto ="  + produto       + "]";
+                "\n estoque= " + estoque +
+                "\n item= " + item +
+                "\n pedido= " + pedido +
+                "\n preco= " + preco +
+                "\n produto =" + produto + "]";
     }
 
-    }
-
-
+}

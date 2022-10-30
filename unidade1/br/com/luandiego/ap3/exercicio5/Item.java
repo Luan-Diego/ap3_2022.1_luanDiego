@@ -1,6 +1,6 @@
 package br.com.luandiego.ap3.exercicio5;
 
-public class item {
+public class Item {
     
     private Produto produto;
     private int qtd;
